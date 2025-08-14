@@ -226,3 +226,10 @@ For support, email: support@gpcet.edu.in or create an issue in the project repos
 ---
 
 **Developed with ❤️ for G.PULLAIAH COLLEGE OF ENGINEERING AND TECHNOLOGY**
+
+**PREVIEW**
+<img width="1596" height="949" alt="image" src="https://github.com/user-attachments/assets/5ed5b8f2-9a94-40f7-85b0-477bbfc7ca72" />
+<img width="1139" height="359" alt="image" src="https://github.com/user-attachments/assets/9749eef2-452f-4898-a772-733f80a852f4" />
+<img width="1659" height="805" alt="image" src="https://github.com/user-attachments/assets/2f124b90-56ce-4537-93b0-167e87f63509" />
+<img width="1631" height="976" alt="image" src="https://github.com/user-attachments/assets/1be7d99b-6168-4684-9f60-6d7d8ccc1bc7" />
+
