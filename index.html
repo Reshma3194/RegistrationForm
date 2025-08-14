@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #80deea);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #004d40;
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #00695c;
+            margin-bottom: 10px;
+        }
+
+        form {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+        }
+
+        label {
+            font-weight: bold;
+            color: #004d40;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin: 0 5px 0 15px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #00796b;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <h1>G.PULLAIAH COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <h2>Registration Form</h2>
+    <form action="insert.php" method="POST">
+        <label>Full Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Roll Number:</label>
+        <input type="text" name="rollno" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" required>
+
+        <label>Branch:</label>
+        <select name="branch" required>
+            <option value="">Select Branch</option>
+            <option>CAI</option>
+            <option>DS</option>
+            <option>IOT</option>
+        </select>
+
+        <label>Current CGPA:</label>
+        <input type="number" name="percentage" step="0.01" required>
+
+        <label>Smart Interviews:</label>
+        <input type="radio" name="smart_interviews" value="yes" required> Yes
+        <input type="radio" name="smart_interviews" value="no"> No
+        <br>
+        <label>Global Certifications:</label>
+        <input type="radio" name="global_cert" value="yes" required> Yes
+        <input type="radio" name="global_cert" value="no"> No
+        <br>
+        <label>Cambridge Certification:</label>
+        <input type="radio" name="cambridge_cert" value="yes" required> Yes
+        <input type="radio" name="cambridge_cert" value="no"> No
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
